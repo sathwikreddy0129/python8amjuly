@@ -91,14 +91,3 @@ a = [23,45.67, 'python',34,"django"]
 #     else:
 #         odd.append(j)
 # print(even)
-# print(odd)
-
-
-#list comprehension
-
-#1st way syntax
-print([j*2 for j in [3,4,5,6,7]])
-#2nd way of syntax
-print([ j*2 for j in [3,4,5,6,7] if j%2==1])
-#3rd way of syntax
-print([j*2 if j%2==1 else j*4 for j in [3,4,5,6,7]])
