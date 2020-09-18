@@ -95,7 +95,3 @@
 
 #2nd way syntax
 # print({{row : a[row] for row in [3,8,3,6,4,1]if row in ['username', 'password', 'email']}})
-
-#3rd way syntax
-print({j:j*2 if j%2==0 else j*3 for j in [3,8,3,6,4,1]})
-
